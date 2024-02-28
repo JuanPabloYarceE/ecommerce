@@ -40,7 +40,7 @@ export function Cart() {
 
   return (
     <>
-      <label className="cart-button" htmlFor={cartCheckboxId}>
+      <label className={cart.length > 0 ? "cart-button cart-button-full" :"cart-button"} htmlFor={cartCheckboxId}>
         <CartIcon />
       </label>
       <input id={cartCheckboxId} type="checkbox" hidden />

@@ -48,9 +48,29 @@
   
   .cart-button:hover {
     scale: 1.1;
+    background: #49ec30;
+  }
+
+  .cart-button-full {
+    scale: 1.1;
+    background: #49ec30;
   }
   
   .cart-button ~ input:checked ~ .cart {
     height: 100%;
     display: block;
   }
+
+
+.cart p {
+  margin-top: 20px; /* Ajusta según sea necesario */
+}
+
+.cart p span {
+  border: 2px solid #ccc; /* Color del borde - ajusta según sea necesario */
+  border-radius: 8px; /* Bordes redondeados - ajusta según sea necesario */
+  padding: 12px; /* Espaciado interno - ajusta según sea necesario */
+  display: inline-block; /* Para que el borde no ocupe el ancho completo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra - ajusta según sea necesario */
+  font-weight: bold; /* Texto en negrita */
+}
